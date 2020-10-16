@@ -41,7 +41,7 @@ except FileExistsError:
 cap = cv2.VideoCapture(0)
 
 start = False
-count = 0
+count = 1
 
 while True:
     ret, frame = cap.read()
